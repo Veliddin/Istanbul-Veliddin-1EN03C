@@ -1,0 +1,48 @@
+body{
+	background: url(fon.jpg);
+	background-repeat: no-repeat;
+	background-size: 120%;
+}
+
+.istanbul{
+	width: 350px;
+}
+
+#navbar {
+        margin: 0;
+        padding: 0;
+        width: 180px;
+      }
+      #navbar li {
+        border-left: 10px;
+        border-bottom: 2px solid #C0C0C0;
+      }
+      #navbar a {
+        background-color: #660000;
+        color: #C0C0C0;
+        padding: 15px;
+        text-decoration: none;
+        font-weight: bold; 
+        border-left: 5px;
+        display: block;
+    }
+      #navbar a:hover {
+      	background: #C0C0C0; 
+        color: #000000; 
+      }
+
+@font-face{
+	font-family: DS Arabic;
+	src: url(arabic.TTF);
+}
+#txt p{
+	font-family:'DS Arabic', sans-serif;
+  color: #C0C0C0;
+  width: 750px;
+  margin-left: 300px;
+  position: absolute;
+  top: 120px;
+}
+#div{
+  margin-bottom: 170px;
+}
